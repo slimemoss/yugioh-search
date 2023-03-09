@@ -14,8 +14,8 @@ export const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/#/02">02環境</Nav.Link>
-              <Nav.Link href="/#/05">05環境</Nav.Link>
+              <Nav.Link href="/yugioh-search/#/02">02環境</Nav.Link>
+              <Nav.Link href="/yugioh-search/#/05">05環境</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
