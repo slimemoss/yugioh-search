@@ -1,5 +1,5 @@
 import * as React from 'react'
-import * as ReactDOM from 'react-dom'
+import { createRoot } from 'react-dom/client'
 import { Route, Routes, HashRouter } from 'react-router-dom'
 import Favicon from 'react-favicon'
 
@@ -9,7 +9,11 @@ import { Header } from './header'
 
 import IconImage from './img/icon2.png'
 
-ReactDOM.render(
+const container = document.getElementById('app')
+if (!container) throw new Error('Failed to find the root element');
+const root = createRoot(container)
+
+root.render(
   <>
     <Favicon url={IconImage} />
 
@@ -22,6 +26,5 @@ ReactDOM.render(
         <Route path="/05" element={<CardSearch05Page/>} />
       </Routes>
     </HashRouter>
-  </>,
-  document.getElementById('app')
+  </>
 )
