@@ -8,7 +8,7 @@ export const Header = () => {
     <>
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/yugioh-search">
             <Image src={IconImage} height="30" className="d-inline-block align-top"/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
