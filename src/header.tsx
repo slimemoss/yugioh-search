@@ -15,7 +15,7 @@ export const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/yugioh-search/#/02">02環境</Nav.Link>
-              <Nav.Link href="/yugioh-search/#/05">05環境</Nav.Link>
+              <Nav.Link href="/yugioh-search/#/05">5期環境</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

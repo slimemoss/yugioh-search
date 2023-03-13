@@ -14,7 +14,7 @@ export const CardSearch02Page = () => {
 }
 
 export const CardSearch05Page = () => {
-  return <CardSearchPage title='05環境 カード検索 | slimemoss'
+  return <CardSearchPage title='5期環境 カード検索 | slimemoss'
                          CardData={CardData05}
                          limit={limit05}
          />

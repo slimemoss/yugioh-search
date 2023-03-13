@@ -49,15 +49,6 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
         modules: ['node_modules']
     },
-    mode: 'development',
-    devServer: {
-        port: 8080,
-        host: '0.0.0.0',
-        historyApiFallback: true,
-        static: __dirname,
-        hot: true,
-        liveReload: true,
-    },
     watchOptions: {
         aggregateTimeout: 200,
         poll: 1000,

@@ -10,7 +10,7 @@ import { Header } from './header'
 import IconImage from './img/icon2.png'
 
 const container = document.getElementById('app')
-if (!container) throw new Error('Failed to find the root element');
+if (!container) throw new Error('Failed to find the root element')
 const root = createRoot(container)
 
 root.render(
